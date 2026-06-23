@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>About — Aanya Verma</title>
+  <meta name="description" content="Learn about Aanya Verma's background, skills, and experience as a frontend developer focused on semantic, accessible web development." />
+  <meta name="author" content="Aanya Verma" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://www.aanyaverma.dev/about.html" />
+
+  <meta property="og:type" content="profile" />
+  <meta property="og:title" content="About — Aanya Verma" />
+  <meta property="og:description" content="Background, skills, and experience of frontend developer Aanya Verma." />
+  <meta property="og:url" content="https://www.aanyaverma.dev/about.html" />
+
+  <meta name="theme-color" content="#15161a" />
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="index.html" aria-label="Aanya Verma — home">
+        <span class="bracket" aria-hidden="true">&lt;/&gt;</span> Aanya Verma
+      </a>
+
+      <button type="button" class="nav-toggle" aria-expanded="false" aria-controls="primary-nav">
+        <span class="visually-hidden">Toggle navigation menu</span>
+        <svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+          <line x1="3" y1="6" x2="21" y2="6"></line>
+          <line x1="3" y1="12" x2="21" y2="12"></line>
+          <line x1="3" y1="18" x2="21" y2="18"></line>
+        </svg>
+      </button>
+
+      <nav class="primary-nav" id="primary-nav" aria-label="Primary">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html" aria-current="page">About</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <header class="page-intro container">
+      <p class="hero__eyebrow">&lt;about&gt;</p>
+      <h1>Hi, I'm Aanya — I build the part of the web that's easy to overlook.</h1>
+      <p>
+        I'm a frontend developer based in Agra, India, who spends most of my
+        time thinking about markup before mockups. A page that reads well
+        to a screen reader and ranks well in search isn't an accident — it's
+        a structure decision made early, not patched in later.
+      </p>
+    </header>
+
+    <section class="section container" aria-labelledby="bio-heading">
+      <h2 id="bio-heading" class="section__title">My approach</h2>
+      <p class="section__lede">
+        Most of my projects start the same way: a content outline turned
+        into a heading hierarchy, before a single color or font is chosen.
+        From there, semantic elements, ARIA roles, and labelled form
+        controls aren't an afterthought — they're the skeleton everything
+        else hangs on. The result is usually a site that performs well in
+        Lighthouse audits not because I chased a score, but because the
+        markup was honest about what each piece of content actually is.
+      </p>
+    </section>
+
+    <section class="section container" aria-labelledby="skills-heading">
+      <h2 id="skills-heading" class="section__title">Skills</h2>
+      <div class="skills-grid">
+        <div>
+          <h3>Languages</h3>
+          <ul>
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>JavaScript (ES6+)</li>
+          </ul>
+        </div>
+        <div>
+          <h3>Accessibility</h3>
+          <ul>
+            <li>WCAG 2.2 AA</li>
+            <li>ARIA authoring practices</li>
+            <li>Keyboard &amp; screen-reader testing</li>
+          </ul>
+        </div>
+        <div>
+          <h3>Tooling</h3>
+          <ul>
+            <li>Lighthouse &amp; axe DevTools</li>
+            <li>Git &amp; GitHub</li>
+            <li>Figma for handoff</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container" aria-labelledby="timeline-heading">
+      <h2 id="timeline-heading" class="section__title">Experience &amp; education</h2>
+      <ol class="timeline">
+        <li>
+          <time datetime="2024">2024 — Present</time>
+          <div>
+            <h3>Frontend Developer, Freelance</h3>
+            <p>Building accessible, SEO-friendly websites for small
+              businesses and personal clients, with a focus on clean
+              semantic structure and fast load times.</p>
+          </div>
+        </li>
+        <li>
+          <time datetime="2023">2023</time>
+          <div>
+            <h3>Web Accessibility Certificate</h3>
+            <p>Completed coursework on WCAG guidelines, ARIA roles, and
+              assistive technology testing.</p>
+          </div>
+        </li>
+        <li>
+          <time datetime="2021">2021 — 2024</time>
+          <div>
+            <h3>B.Sc. in Computer Applications</h3>
+            <p>Coursework in web technologies, data structures, and
+              human-computer interaction.</p>
+          </div>
+        </li>
+      </ol>
+    </section>
+
+    <section class="section container" aria-labelledby="cta-heading">
+      <div class="callout">
+        <h2 id="cta-heading">Want to see this thinking applied?</h2>
+        <a class="btn btn--primary" href="projects.html">Browse my projects</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <address>Built by Aanya Verma · Agra, India · <a href="mailto:hello@aanyaverma.dev">hello@aanyaverma.dev</a></address>
+      <nav class="footer-nav" aria-label="Footer">
+        <ul>
+          <li><a href="about.html">About</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <p>&copy; <span data-current-year>2026</span> Aanya Verma. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
